@@ -23,5 +23,8 @@
       }
     }
   ],
+  "optionalPatternForPrValidation": [
+    "Build * (minversion) / *"
+  ],
   "templateSha": "f46e9f8513d66793818b0665ca4b339379d3f3a7"
 }
