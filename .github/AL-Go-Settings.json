@@ -8,5 +8,20 @@
   "shell": "pwsh",
   "githubRunner": "ubuntu-latest",
   "githubRunnerShell": "pwsh",
+  "buildModes": [
+    "default",
+    "minversion"
+  ],
+  "conditionalSettings": [
+    {
+      "buildModes": [
+        "minversion"
+      ],
+      "settings": {
+        "artifact": "/OnPrem/*//First",
+        "nuGetFeedSelectMode": "EarliestMatching"
+      }
+    }
+  ],
   "templateSha": "99aa680a2af06a94b60c9fc9881aa2885681facc"
 }
