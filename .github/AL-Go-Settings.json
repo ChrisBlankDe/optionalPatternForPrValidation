@@ -18,7 +18,7 @@
         "minversion"
       ],
       "settings": {
-        "artifact": "/OnPrem/*//First",
+        "artifact": "/OnPrem/28//First",
         "nuGetFeedSelectMode": "EarliestMatching"
       }
     }
