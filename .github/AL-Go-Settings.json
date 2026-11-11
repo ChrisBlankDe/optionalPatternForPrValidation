@@ -1,7 +1,7 @@
 {
-  "$schema": "https://raw.githubusercontent.com/microsoft/AL-Go-Actions/v10.0/.Modules/settings.schema.json",
+  "$schema": "https://raw.githubusercontent.com/ChrisBlankDe/AL-Go/optionalPatternForPrValidation/Actions/.Modules/settings.schema.json",
   "type": "PTE",
-  "templateUrl": "https://github.com/microsoft/AL-Go-PTE@main",
+  "templateUrl": "https://github.com/ChrisBlankDe/AL-Go@optionalPatternForPrValidation",
   "doNotPublishApps": true,
   "useCompilerFolder": true,
   "runs-on": "ubuntu-latest",
@@ -23,5 +23,5 @@
       }
     }
   ],
-  "templateSha": "99aa680a2af06a94b60c9fc9881aa2885681facc"
+  "templateSha": "f46e9f8513d66793818b0665ca4b339379d3f3a7"
 }
